@@ -1,0 +1,15 @@
+page{display:flex;flex-direction:column;box-sizing: border-box;}
+view{box-sizing: border-box;}
+
+.f_l{float:left;}
+.f_r{float:right;}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1}
+
+.body{box-sizing: border-box;width:100%;margin:0 auto;height:auto;}
+
+.line{line-height:1;}
+
+
+
+

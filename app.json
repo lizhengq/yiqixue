@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/answerImport/answerImport",
+    "pages/nationalResearch/nationalResearch",
+    "pages/answerPhoto/answerPhoto"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  }
+}

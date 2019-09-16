@@ -1,0 +1,10 @@
+<view class="body">
+  <view class='banner'></view>
+  <view class='main'>
+    <view class='main-row' wx:for="{{answerList}}" wx:key="index">
+      <text data-idx="{{index}}" bindtap='clickImport' class='p' wx:if="{{item.p==true}}">{{item.value!=''?item.value:'点击默写标题'}}</text>
+      <textarea data-index="{{index}}" bindinput="inputChange" value="{{item.value}}" maxlength="50" wx:if="{{item.textarea==true}}" placeholder="{{item.value!=''?item.value:'点击默写标题'}}" />
+    </view>
+    <view class='submit'><text>提交</text></view>
+  </view>
+</view>

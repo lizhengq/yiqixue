@@ -1,0 +1,43 @@
+.video-container{position: fixed;width:100%;left:0;top:0;right:0;height:420rpx;background:#ccc;z-index: 10;}
+.video-container .video-wrap{position: absolute;width:100%;height:100%;top:0;bottom:0;left:0;right:0;}
+.video-container .play-icon{position: absolute;width:100rpx;height:100rpx;border-radius: 50%;overflow: hidden;left:50%;top:50%;margin:-50rpx 0 0 -50rpx;}
+.video-container .played{background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/f25152c2921b4e079c10ae8d7603528b.png') no-repeat;background-size:contain;}
+.zw{width:100%;height:20rpx;background:#F7F7F7;}
+.nation-container{width:100%;position: absolute;left:0;top:420rpx;right:0;}
+.nation-container .nation-detail{padding:0 30rpx 76rpx 30rpx;position: relative;}
+.nation-container .course-list{padding:0 0 0 30rpx;}
+.nation-container .jt-icon{position: absolute;bottom:36rpx;left:50%;width:28rpx;height:16rpx;margin:0 0 0 -14rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/e547dbe0ce6f49c0adf9ca5331dd995e.png') no-repeat;background-size:contain;transition: all 0.2s;-webkit-transition: all 0.2s;}
+.nation-container .jt0{transform: rotate(0deg);-webkit-transform: rotate(0deg);}
+.nation-container .jt180{transform: rotate(180deg);-webkit-transform: rotate(180deg);}
+.nation-container .h3{font-size:38rpx;color:#202020;padding:30rpx 0 20rpx 0;}
+.nation-container .p{font-size:28rpx;color:#6D6D77;line-height:1.5;}
+.nation-container .li{position: relative;padding-bottom:39rpx;border-bottom:1px solid #E6E6E6;}
+.nation-container .li .li-left{position:absolute;left:0;top:0;padding:46rpx 0 0 0;}
+.nation-container .li .li-right{position:absolute;right:0;top:0;padding:56rpx 38rpx 0 0;}
+.nation-container .li .li-left .play-status{display:block;width:58rpx;height:58rpx;border-radius: 50%;overflow: hidden;}
+.nation-container .li .play-list-nor{background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/fdad5466a5e6404fbd53f483f951d1c2.png') no-repeat;background-size:contain;}
+.nation-container .li .play-list-foc{background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/0ace0c084816456b873b7262ee214290.png') no-repeat;background-size: contain;}
+.nation-container .li .li-right .eidtorlock{display:block;}
+.nation-container .li .li-right .edit{width:38rpx;height:38rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/110b35264ec24aa58cdcce8622715cef.png') no-repeat;background-size:contain;}
+.nation-container .li .li-right .edit-succ{width:44rpx;height:44rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/01dac0651514420899ea9227c27902a7.png') no-repeat;background-size:contain;}
+.nation-container .li .li-right .lock{width:32rpx;height:40rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/be1787fd9c154f43b5c7dc3a818cb581.png') no-repeat;background-size:contain;}
+.nation-container .li .li-center{padding:37rpx 190rpx 0 97rpx;}
+.nation-container .li-title{font-size:30rpx;color:#2C3B53;}
+.nation-container .title-foc{color:#24C791 !important;}
+.nation-container .li-time text{display:inline-block;font-size:24rpx;color:#A0A7B6;}
+.nation-container .li-time .try{color:#fff;background:#FF7E00;font-size:20rpx;padding:3rpx 7rpx;border-radius: 4rpx;margin-right:8rpx;}
+
+
+
+.work-way{position: fixed;width:100vw;height:100vh;background:rgba(255, 255, 255, 0.9);left:0;right:0;bottom:0;z-index: 11;transition: all 0.2s;-webkit-transition: all 0.2s;}
+.work-way-up{transform: translate(0,0);-webkit-transform: translate(0,0);}
+.work-way-down{transform: translate(0,140vh);-webkit-transform: translate(0,140vh);}
+.btns{display: flex;flex-direction: row;justify-content: center;width:100%;position: absolute;bottom:200rpx;}
+.btns .btn-row:nth-child(1){margin-right:211rpx;}
+.btns .btn-row text{display:block;font-size:28rpx;text-align: center;padding-top:27rpx;}
+.btns .btn-row:nth-child(1) text{color:#7EC83F;}
+.btns .btn-row:nth-child(2) text{color:#569BFA;}
+.btns .word-icon,.btns .photo-icon{width:126rpx;height:126rpx;}
+.btns .word-icon{background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/1ce70c8392da4affb84f8afaec46bd77.png') no-repeat;background-size: contain;}
+.btns .photo-icon{background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/46d1c7b65c104f3c8cd54d185ff64d26.png') no-repeat;background-size: contain;}
+.work-way .close-icon{display: block;position: absolute;bottom:60rpx;width:35rpx;height:34rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/2ecc130b30904c5fb90ae50a96ad3f69.png');background-size:contain;left:50%;margin:0 0 0 -17rpx;}
