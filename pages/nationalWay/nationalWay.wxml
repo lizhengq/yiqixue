@@ -1,0 +1,23 @@
+<view class="body">
+  <view class='banner'>
+    <view class='b-title'>考老师</view>
+    <view class='b-detail'>职业考证大杀器，告别死记硬背，轻松应对考试</view>
+  </view>
+  <view class='main'>
+    <view class='ul'>
+      <view class='clearfloat li' wx:for="{{course}}" wx:key="index">
+        <view class='f_l'>
+          <view class='oimg'></view>
+        </view>
+        <view class='f_l li-center'>
+          <view class='line li-tit'>《国编考证》</view>
+          <view class='li-detail'>
+            <text class='line li-one'>6899魔法币</text>
+            <text class='line li-two'>/10课</text>
+          </view>
+          <view class='line li-payNum'>549人已购买</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

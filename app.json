@@ -1,12 +1,12 @@
 {
   "pages":[
-    "pages/answerResSucc/answerResSucc",
-    "pages/answerResFail/answerResFail",
-    "pages/answerSubSucc/answerSubSucc",
+    "pages/nationalResearch/nationalResearch",
     "pages/answerPhoto/answerPhoto",
     "pages/answerImport/answerImport",
-    "pages/nationalResearch/nationalResearch"
-
+    "pages/answerResFail/answerResFail",
+    "pages/answerResSucc/answerResSucc",
+    "pages/nationalWay/nationalWay",
+    "pages/answerSubSucc/answerSubSucc"
   ],
   "window":{
     "backgroundTextStyle":"light",
