@@ -1,0 +1,9 @@
+<view class="body">
+  <view class='wrap'>
+    <view class='img'>
+      <text class='p'>提交成功</text>
+    </view>
+    <view class='p-detail'>系统会尽快为您审核</view>
+    <view class='sub'>完成</view>
+  </view>
+</view>

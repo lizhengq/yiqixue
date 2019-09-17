@@ -1,20 +1,25 @@
-const tool=require('../../utils/tool.js')
-
-
+// pages/answerResSucc/answerResSucc.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    takePhotoBig:false
+    question: [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+
   },
 
   /**
@@ -23,7 +28,6 @@ Page({
   onReady: function () {
 
   },
-
 
   /**
    * 生命周期函数--监听页面显示
@@ -37,13 +41,6 @@ Page({
    */
   onHide: function () {
 
-  },
-
-  //移除上传的图片
-  removeImg(){
-    tool.modal('提示','确定删除吗？',(res)=>{
-      console.log('look',res)
-    })
   },
 
   /**

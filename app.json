@@ -1,8 +1,11 @@
 {
   "pages":[
+    "pages/answerResSucc/answerResSucc",
+    "pages/answerResFail/answerResFail",
+    "pages/answerSubSucc/answerSubSucc",
+    "pages/answerPhoto/answerPhoto",
     "pages/answerImport/answerImport",
-    "pages/nationalResearch/nationalResearch",
-    "pages/answerPhoto/answerPhoto"
+    "pages/nationalResearch/nationalResearch"
 
   ],
   "window":{

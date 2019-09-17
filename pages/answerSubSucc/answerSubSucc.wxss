@@ -1,0 +1,4 @@
+.wrap .img{position: relative;width:444rpx;height:450rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/05055340279a4a24a4c5db0b9b74dd0b.png') no-repeat;background-size:contain;margin:0 auto;}
+.wrap .img .p{position: absolute;bottom:0;width:100%;text-align: center;font-size:42rpx;color:#333;}
+.wrap .p-detail{width:100%;text-align: center;font-size:32rpx;color:#999;margin-bottom:60rpx;margin-top:20rpx;}
+.wrap .sub{width:620rpx;height:90rpx;background:#7EC83F;color:#fff;text-align: center;line-height:90rpx;border-radius: 50rpx;margin:0 auto;}

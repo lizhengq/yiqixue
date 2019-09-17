@@ -1,0 +1,41 @@
+<view class="body">
+  <view class='bg'></view>
+  <view class='header'></view>
+  <view class='list'>
+    <view class='ul'>
+      <view class='li' wx:for="{{question}}" wx:key="index">
+        <view class='clearfloat li-header'>
+          <view class='f_l p'>
+            <label class='cri f_l h-dot'></label>
+            <text class=' f_l'>默写标题</text>
+          </view>
+          <view class='f_r p'>
+            <label  class='f_l cri h-dot'></label>
+            <text class='f_l'>正确率：10%</text></view>
+        </view>
+        <view class='li-body'>
+          <view class='b-row'>
+            <view class='clearfloat h3'>
+              <label  class='f_l h-dot cri'></label>
+              <text class='f_l'>正确答案</text>
+            </view>
+            <view class='b-con'>记忆方法是指记住或回想，让过去的事物留在脑海里的方法。对学习过的事物在脑中保留一定时间再认和回忆。</view>
+          </view>
+          <view class='b-row'>
+            <view class='clearfloat h3'>
+              <label class='f_l h-dot cri'></label>
+              <text class='f_l'>正确答案</text>
+            </view>
+            <view class='b-con'>记忆方法是指记住或回想，让过去的事物留在脑海里的方法。对学习过的事物在脑中保留一定时间再认和回忆。</view>
+          </view>
+        </view>
+        <!-- <view class='li-footer'></view> -->
+      </view>
+    </view>
+  </view>
+
+  <view class='footer'>
+    <view class='btn dz'>重做</view>
+    <view class='btn continue'>继续学习</view>
+  </view>
+</view>

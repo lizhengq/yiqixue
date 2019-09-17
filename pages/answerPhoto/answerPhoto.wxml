@@ -1,3 +1,31 @@
 <view class="body">
-  拍照答题
+  <view class='banner'></view>
+  <view class='main'>
+    <view class='take-photo-big' wx:if="{{takePhotoBig}}">
+      <view class='take-photo-wrap'>
+        <label class='icons'></label>
+        <text class='p'>请添加合规的图片答案，最多可添加6张</text>
+      </view>
+    </view>
+
+    <view class='photo-list'>
+      <view class='clearfloat ul'>
+        <view class='li f_l'><label bindtap='removeImg' class='icon-close'></label></view>
+        <view class='li f_l'><label bindtap='removeImg' class='icon-close'></label></view>
+        <view class='li f_l'><label bindtap='removeImg' class='icon-close'></label></view>
+        <view class='li f_l'><label bindtap='removeImg' class='icon-close'></label></view>
+        <view class='li f_l'><label bindtap='removeImg' class='icon-close'></label></view>
+        <view class='li f_l'><label bindtap='removeImg' class='icon-close'></label></view>
+        <view class='li f_l take-photo-small'>
+          <label class='icons'></label>
+          <text class='p'>0/6</text>
+        </view>
+      </view>
+      <!-- <view class='take-photo-small'>
+        <label class='icons'></label>
+        <text class='p'>0/6</text>
+      </view> -->
+    </view>
+    <view class='submit'><text>提交</text></view>
+  </view>
 </view>

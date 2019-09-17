@@ -1,0 +1,20 @@
+.body{width:100%;height:auto;background:linear-gradient( top,#A3CAFF,#569BFA);background:-webkit-linear-gradient(top,#A3CAFF,#569BFA);padding-bottom:100rpx;}
+.bg{width:100%;height:325rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/6ef710b3e538466295dcc49614450f8f.png') no-repeat;background-size: contain;position: absolute;top:0;left:0;right:0;z-index: -1;}
+
+.header{width:316rpx;height:75rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/94d3dab3f4554361aed394c44a7a2db5.png') no-repeat;background-size:contain;margin:0 auto;margin-top:84rpx;margin-bottom:66rpx;}
+
+.list{padding:0 30rpx 20rpx 30rpx;}
+.ul .li{background:#fff;border-radius: 28rpx;overflow: hidden;margin-bottom:20rpx;}
+.li .li-header{width:100%;height:84rpx;background:#F1F6FF;color:#2C3B53;padding:22rpx 100rpx 0 40rpx;}
+.li .li-header text{padding:0 0 0 10rpx;font-size:30rpx;font-weight:bold;}
+.li .h-dot{margin-top:15rpx;}
+.li .h3{padding:20rpx 40rpx 20rpx 40rpx;border-bottom:1px solid #E5E5E5;}
+.li .h3 text{font-size:30rpx;color:#2C3B53;padding-left:10rpx;}
+.li .b-con{color:#848A94;font-size:28rpx;padding:20rpx 40rpx 20rpx 40rpx;border-bottom:1px solid #e5e5e5;line-height:40rpx;}
+
+.li .cri{display:block;box-sizing: border-box;width:10rpx;height:10rpx;border-radius: 50%;background:#fff;border:3rpx solid #7EC83F;}
+
+.footer{display:flex;flex-direction: row;justify-content:space-around;position: fixed;bottom:0;left:0;right:0;z-index:10;padding:20rpx 0 20rpx 0;background:#569BFA;}
+.footer .btn{width:280rpx;height:80rpx;border-radius: 38rpx;text-align: center;line-height:80rpx;font-size:36rpx;}
+.footer .dz{background:#fff;color:#848A94;}
+.footer .continue{background:#7EC83F;color:#fff;}

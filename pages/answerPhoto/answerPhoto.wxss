@@ -1,1 +1,19 @@
-/* pages/answerPhoto/answerPhoto.wxss */
+page{background:#F2F2F2;}
+.banner{position: fixed;left:0;top:0;right:0;height:422rpx;background:#ccc;z-index: 10;}
+.main{position:absolute;top:422rpx;left:0;right:0;bottom:0;z-index:-1;}
+.take-photo-big{padding:50rpx 30rpx 0 30rpx;}
+.take-photo-wrap{background:#fff;width:100%;height:210rpx;padding:49rpx 0 0 0;border-radius: 8rpx;}
+.take-photo-big .icons{display: block;width:74rpx;height:68rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/9d8b030b40b647cfa96a2698d7366153.png') no-repeat;background-size: contain;margin:0 auto;}
+.take-photo-big .p{display: block;width:100%;text-align: center;line-height:1;font-size:24rpx;color:#757575;padding:20rpx 0 0 0;}
+
+.photo-list{padding:50rpx 30rpx 0 30rpx;}
+.photo-list .take-photo-small{width:210rpx;height:210rpx;background:#fff;padding:50rpx 0 0 0;}
+.take-photo-small .icons,.take-photo-small .p{display:block;margin:0 auto;text-align: center;color:#757575;font-size:24rpx;}
+.take-photo-small .icons{width:74rpx;height:68rpx;margin-bottom:10rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/9d8b030b40b647cfa96a2698d7366153.png') no-repeat;background-size: contain;}
+.take-photo-small .p{width:100%;}
+.ul .li{width:210rpx;height:210rpx;background:#fff;margin-right:30rpx;margin-bottom:30rpx;position: relative;}
+.ul .li:nth-child(3n+0){margin-right:0;}
+.ul .li .icon-close{position: absolute;top:-10rpx;right:-10rpx;display:block;width:42rpx;height:42rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/3797953de45f415395519c72235966e6.png') no-repeat;background-size:contain;}
+
+.submit{padding:79rpx 80rpx 50rpx 80rpx;position: fixed;bottom:0;right:0;left:0;}
+.submit text{display:block;width:100%;height:88rpx;line-height:88rpx;background:#B8DD98;color:#fff;text-align: center;border-radius:50rpx;}
