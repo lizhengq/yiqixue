@@ -1,0 +1,11 @@
+<view class="body">
+  <view class='body-wrap'>
+    <view class='detail'>你当前手机号为：+86 138****1001。更换手机后，下次登录需要用新手机号</view>
+    <view class='inp'>
+      <label>+86</label>
+      <input value="{{iphone}}" maxlength="11" bindinput="changeInput" type='number' placeholder='输入新的手机号'></input>
+      <view wx:if="{{close}}" class='icons' bindtap='closeIphone'></view>
+    </view>
+    <view class='btn {{disabled==true?"disabled":""}}'>下一步</view>
+  </view>
+</view>

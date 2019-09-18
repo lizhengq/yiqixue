@@ -1,0 +1,12 @@
+<view class="body">
+  <view class='body-wrap'>
+    <view class='detail'>验证码已发送至+86 136****4371，请查收</view>
+    <view class='inp'>
+      <label>验证码</label>
+      <input value="{{code}}" maxlength="5" bindinput="changeCode" type='number' placeholder='输入验证码'></input>
+      <view wx:if="{{codeStatus==true}}" class='icons'>获取获取(59s)</view>
+      <view wx:else class='icons' style="color:#24C791;">获取获取{{}}</view>
+    </view>
+    <view class='btn {{disabled==true?"disabled":""}}'>提交</view>
+  </view>
+</view>

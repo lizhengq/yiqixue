@@ -1,5 +1,9 @@
 {
   "pages":[
+    "pages/changeMobileSucc/changeMobileSucc",
+    "pages/changeMobile/changeMobile",
+    "pages/MobileGetCode/MobileGetCode",
+    "pages/changeMobileNum/changeMobileNum",
     "pages/nationalResearch/nationalResearch",
     "pages/answerPhoto/answerPhoto",
     "pages/answerImport/answerImport",

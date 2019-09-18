@@ -1,0 +1,8 @@
+<view class="body">
+  <view class='body-wrap'>
+    <view class='oimg'></view>
+    <view class='localMobile'>你当前的手机号：13870831001</view>
+    <view class='detail'>更换手机号后，其他个人信息保持不变</view>
+    <view class='btn'>更换手机号</view>
+  </view>
+</view>
