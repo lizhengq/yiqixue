@@ -1,0 +1,6 @@
+<scroll-view 
+  scroll-x="{{scroll.scrollX}}" 
+  scroll-y="{{scroll.scrollY}}" 
+  style="width:{{scroll.width}};height:{{scroll.height}};">
+  <slot></slot>
+</scroll-view>

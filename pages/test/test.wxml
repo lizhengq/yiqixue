@@ -1,0 +1,4 @@
+<Banner banner="{{banner}}"></Banner>
+<Alert bind:alertBtn="myEvent" alert="{{alert}}"></Alert>
+
+<view bindtap='liqiang'>我是按钮</view>

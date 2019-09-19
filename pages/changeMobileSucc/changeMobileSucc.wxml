@@ -3,6 +3,6 @@
     <view class='oimg'></view>
     <view class='localMobile'>更换新手机号成功</view>
     <view class='detail'>当前绑定手机号：+86 136****4371</view>
-    <view class='btn'>完成</view>
+    <view bindtap="complelet" class='btn'>完成</view>
   </view>
 </view>

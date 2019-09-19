@@ -1,0 +1,3 @@
+<view class="Banner" style="width:{{banner.width}};height:{{banner.height}};background:url('{{banner.url}}') no-repeat;background-size:contain;">
+  <slot></slot>
+</view>

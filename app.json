@@ -1,12 +1,22 @@
 {
+  "usingComponents":{
+    "Banner":"/components/banner/banner",
+    "Alert": "/components/alert/alert",
+    "Scroll": "/components/scroll/scroll"
+  },
+
   "pages":[
+    "pages/listenCourse/listenCourse",
+    "pages/rankingList/rankingList",
+    "pages/studyPoems/studyPoems",
+    "pages/test/test",
+    "pages/answerPhoto/answerPhoto",
+    "pages/answerImport/answerImport",
     "pages/changeMobileSucc/changeMobileSucc",
     "pages/changeMobile/changeMobile",
     "pages/MobileGetCode/MobileGetCode",
     "pages/changeMobileNum/changeMobileNum",
     "pages/nationalResearch/nationalResearch",
-    "pages/answerPhoto/answerPhoto",
-    "pages/answerImport/answerImport",
     "pages/answerResFail/answerResFail",
     "pages/answerResSucc/answerResSucc",
     "pages/nationalWay/nationalWay",

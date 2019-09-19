@@ -1,0 +1,41 @@
+<view class="body">
+  <view class='clearfloat header'>
+    <view class='f_l h-list {{nj==true?"actived":""}}'>
+      <text data-idx="1" bindtap='openPop' class='f_l nj'>{{njValue}}</text>
+      <label class='f_l icon-jt'></label>
+    </view>
+    <view class='f_l h-list {{cd==true?"actived":""}}'>
+      <text  data-idx="2" bindtap='openPop' class='f_l nj'>{{cdValue}}</text>
+      <label class='f_l icon-jt'></label>
+    </view>
+    <view class='clearfloat alerts alert-nj' wx:if="{{nj==true}}">
+      <block wx:for="{{headerObj.nj}}" wx:key="index">
+        <text class='f_l {{njIndex==index?"activeds":""}}' style="font-size:32rpx;" data-type="1" data-index="{{index}}" bindtap='switchType'>{{item}}</text>
+      </block>
+    </view>
+    <view class='clearfloat alerts alert-cd' wx:if="{{cd==true}}">
+      <block wx:for="{{headerObj.cd}}" wx:key="index">
+        <text class='f_l {{cdIndex==index?"activeds":""}}' style="font-size:32rpx;" data-type="2"  data-index="{{index}}" bindtap='switchType'>{{item}}</text>
+      </block>
+    </view>
+  </view>
+
+  <view class='scroll-wrap'>
+    <Scroll>
+      <view class='ul'>
+        <view class='li' wx:for="{{courseList}}" wx:key="index">
+          <view class='li-l'>
+            <view class="l-tit">咏柳</view>
+            <view class="l-auth">[唐] 贺知章</view>
+          </view>
+          <view class='li-r'>85分</view>
+        </view>
+      </view>
+    </Scroll>
+  </view>
+
+  <view class='float-img'></view>
+  
+  
+  
+</view>

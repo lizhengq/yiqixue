@@ -1,0 +1,7 @@
+<view class="alert-mask" wx:if="{{alert.display}}">
+  <view class='alert-wrap' wx:if="{{alert.display}}">
+    <view class='alert-title'>{{alert.title}}</view>
+    <view class='alert-con'>{{alert.con}}</view>
+    <view bindtap='alertBtn' class='alert-btn'>{{alert.btnVal}}</view>
+  </view>
+</view>

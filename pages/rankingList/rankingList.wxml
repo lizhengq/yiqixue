@@ -1,0 +1,41 @@
+<view class="body">
+  
+    <Banner banner="{{banner}}" class="qiang">
+      <view class="clearfloat header">
+        <view class='f_l h-list h-l'>
+          <cover-image class='avator' src="http://test.aimeichuang.cn/mobile/images/1020myicon-foc.png"></cover-image>
+        </view>
+        <view class='f_l h-list h-c'>
+          <view class='h-name'>李少</view>
+          <view class='clearfloat h-much'>
+            <label class='f_l icons-book'></label>
+            <text class='f_l'>已背诵5首</text>
+          </view>
+        </view>
+        <view class='f_r h-list h-r'>
+          <view class='h-all'>我的总分：56</view>
+          <view class='h-rank'>我的排名：10</view>
+        </view>
+      </view>
+    </Banner>
+
+    <view class='clearfloat main-tit'>
+      <view class='f_l'>排名</view>
+      <view class='f_l m-c'>用户昵称</view>
+      <view class='f_r'>累计得分</view>
+    </view>
+
+    <view class='ul'>
+      <view class='clearfloat li' wx:for="{{rankList}}" wx:key="index">
+        <view class='f_l'>
+          <block wx:if="{{index<3}}"><cover-image class='awards' src='{{award[index]}}'></cover-image></block>
+          <block wx:else><text class="indexs">{{(index+1)}}</text></block>
+        </view>
+        <view class='f_l'>
+          <cover-image class="f_l li-avator" src='http://test.aimeichuang.cn/mobile/images/1020myicon-foc.png'></cover-image>
+          <text class='f_l li-name'>李少</text>
+        </view>
+        <view class='f_r scores li-score {{index==0?"first-score":""}}'>3068</view>
+      </view>
+    </view>
+</view>

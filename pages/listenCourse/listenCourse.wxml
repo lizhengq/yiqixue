@@ -1,0 +1,14 @@
+<view class="body">
+  <view class='video'></view>
+  <view class='scroll-wrap'>
+    <Scroll>
+    <view class='scroll-con'>
+        <view class="h1">参考图片</view>
+        <image src='http://amcimg.vipyqx.com/commFile/oss/image/download/8f1b8f4954324fe89ab62def069ba67d.png'></image>
+        <image src='http://amcimg.vipyqx.com/commFile/oss/image/download/8f1b8f4954324fe89ab62def069ba67d.png'></image>
+        <image src='http://amcimg.vipyqx.com/commFile/oss/image/download/8f1b8f4954324fe89ab62def069ba67d.png'></image>
+    </view>
+    </Scroll>
+  </view>
+  <view class='btns'>前往背诵</view>
+</view>

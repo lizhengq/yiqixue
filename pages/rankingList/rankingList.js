@@ -1,20 +1,25 @@
-// pages/changeMobileSucc/changeMobileSucc.js
+// pages/rankingList/rankingList.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    banner:{
+      width:'100%',
+      height:'208rpx',
+      url:'http://amcimg.vipyqx.com/commFile/oss/image/download/acce03c48b544c5983c65e9a28939137.png'
+    },
+    rankList:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+    award: ['http://amcimg.vipyqx.com/commFile/oss/image/download/716a547f2eed4afb925add8d5eea88f8.png', 'http://amcimg.vipyqx.com/commFile/oss/image/download/4481ccfc12714b509b135eb818165758.png','http://amcimg.vipyqx.com/commFile/oss/image/download/1fecdfac82464cb4818d4ec01c8eeed9.png']
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
-  },
 
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
