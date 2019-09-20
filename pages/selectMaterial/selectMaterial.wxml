@@ -1,0 +1,75 @@
+<view class="body">
+  <view class="clearfloat nav">
+    <view wx:for="{{grades}}" wx:key="index" data-index="{{index}}" bindtap='clickNav' class='f_l nav-list {{navIndex==index?"focus":""}}'>{{item.title}}</view>
+    <!-- <view data-index="1" bindtap='clickNav' class='f_l nav-list {{navIndex==1?"focus":""}}'>初中</view> -->
+  </view>
+
+  <view class='list-wrap'>
+    <scroll-view scroll-y="true" bindscroll="myScroll">
+      <view class='list-con'>
+        <view class='list-box' wx:for="{{grades}}" wx:key="index" wx:for-item="row">
+          <view class='h2' id="title{{index}}">{{row.title}}</view>
+          <view class='clearfloat ul'>
+            <view class='f_l li {{index==0?"liwc":"lixx"}}' wx:for="{{row.list}}" wx:key="index" wx:for-item="items">
+              <label class='top-icon {{index==0?"wc":"xx"}}'></label>
+              <!-- <label class='top-icon xx'></label> -->
+              <text class='title'>{{items.title}}</text>
+              <text class='grade'>{{items.grade}}</text>
+              <text class='sections'>{{item.senc}}</text>
+            </view>
+            <!-- <view class='f_l li lixx'>
+              <label class='top-icon wc'></label>
+              <label class='top-icon xx'></label>
+              <text class='title'>小学版</text>
+              <text class='grade'>三年级</text>
+              <text class='sections'>41词</text>
+            </view>
+            <view class='f_l li lixx'>
+              <label class='top-icon wc'></label>
+              <label class='top-icon xx'></label>
+              <text class='title'>小学版</text>
+              <text class='grade'>三年级</text>
+              <text class='sections'>41词</text>
+            </view>
+            <view class='f_l li lixx'>
+              <label class='top-icon wc'></label>
+              <label class='top-icon xx'></label>
+              <text class='title'>小学版</text>
+              <text class='grade'>三年级</text>
+              <text class='sections'>41词</text>
+            </view>
+            <view class='f_l li lixx'>
+              <label class='top-icon wc'></label>
+              <label class='top-icon xx'></label>
+              <text class='title'>小学版</text>
+              <text class='grade'>三年级</text>
+              <text class='sections'>41词</text>
+            </view>
+            <view class='f_l li lixx'>
+              <label class='top-icon wc'></label>
+              <label class='top-icon xx'></label>
+              <text class='title'>小学版</text>
+              <text class='grade'>三年级</text>
+              <text class='sections'>41词</text>
+            </view>
+            <view class='f_l li lixx'>
+              <label class='top-icon wc'></label>
+              <label class='top-icon xx'></label>
+              <text class='title'>小学版</text>
+              <text class='grade'>三年级</text>
+              <text class='sections'>41词</text>
+            </view>
+
+            <view class='f_l li lixx'>
+              <label class='top-icon wc'></label>
+              <label class='top-icon xx'></label>
+              <text class='title'>小学版</text>
+              <text class='grade'>三年级</text>
+              <text class='sections'>41词</text>
+            </view> -->
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

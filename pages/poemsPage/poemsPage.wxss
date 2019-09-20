@@ -1,0 +1,21 @@
+page{background:#f5f5f5;}
+.poems-wrap{text-align: center;position: absolute;top:0;left:0;right:0;bottom:260rpx;}
+
+.h2{padding:87rpx 0 10rpx 0;}
+.h3{padding:0 0 20rpx 0;}
+
+.poems-wrap text{display:inline-block;width:75rpx;}
+.poems-wrap .h2-pinyin text{color:#1c1c1c;font-size:24rpx;}
+.poems-wrap .h2-txt text{color:#212121;font-size:44rpx;}
+
+.poems-wrap .h3-pinyin text,
+.poems-wrap .li-pinyin text{color:#1C1C1C;font-size:20rpx;}
+.poems-wrap .h3-txt text,
+.poems-wrap .li-text text{color:#212121;font-size:32rpx;}
+
+
+
+
+.footer{position: fixed;z-index: 9;bottom:0;left:0;right:0;width:100%;height:260rpx;text-align: center;color:#999;line-height:1;background:#fff;}
+.footer .f-icon{width:120rpx;height:120rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/9c424be6caf34d498cc26ce42a798cb7.png') no-repeat;background-size:contain;margin:0 auto;margin-bottom:16rpx;margin-top:50rpx;}
+.footer .f-txt{font-size:24rpx;}

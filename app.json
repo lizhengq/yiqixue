@@ -6,6 +6,11 @@
   },
 
   "pages":[
+    "pages/nowMaterial/nowMaterial",
+    "pages/selectMaterial/selectMaterial",
+    "pages/readPoemsRes/readPoemsRes",
+    "pages/recordingPoems/recordingPoems",
+    "pages/poemsPage/poemsPage",
     "pages/listenCourse/listenCourse",
     "pages/rankingList/rankingList",
     "pages/studyPoems/studyPoems",

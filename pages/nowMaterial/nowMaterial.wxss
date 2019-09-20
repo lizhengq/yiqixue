@@ -1,0 +1,31 @@
+page{background:#f0f0f0;}
+.header{width:100%;height:618rpx;background:#CCD3DB;position: relative;padding:42rpx 0 0 0;z-index:-1;}
+.header .icon-menu{position:absolute;right:40rpx;top:30rpx;display:block;width:35rpx;height:40rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/5c686c45d08b4d44ab7699b9970d976e.png') no-repeat;background-size: contain;}
+.header .book{width:160rpx;height:190rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/0e53777535934a7ea2577dea9e775f35.png') no-repeat;background-size:contain;text-align: center;line-height:1;padding:46rpx 0 0 0;margin:0 auto;margin-bottom:30rpx;}
+.header .book .title{padding:0 0 15rpx 0;}
+.header .book .title,
+.header .book .grade{display:block;color:#fff;font-size:24rpx;}
+.header .book .sections{display:block;font-size:20rpx;color:#A1B9E5;padding:20rpx 0 0 0;}
+.header .change-book{border:1px solid #B4BBC2;border-radius: 40rpx;width:108rpx;height:48rpx;text-align: center;font-size:30rpx;background:#CCD3DB;color:#636A77;margin:0 auto;}
+
+.swipers{width:100%;height:560rpx;overflow: hidden;margin-top:-200rpx;}
+.swipers swiper{height:560rpx;}
+.swipers .s-wrap{position: relative;width:600rpx;height:560rpx;background:#fff;margin:0 auto;border-radius: 16rpx;overflow: hidden;padding:0 50rpx;z-index: 9;}
+.swipers .s-mask{position: absolute;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.5);}
+
+.swipers .bottom{border-top:1px solid #E6E6E6;padding:75rpx 0 0 0;}
+.swipers .item-title{font-size:40rpx;color:#636A77;text-align: center;padding:50rpx 0;}
+.swipers .icon-menu{width:80rpx;height:80rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/db1f7af62529403e9e2534f3235e0b52.png') no-repeat;background-size:contain;margin:0 auto;}
+.swipers .p{font-size:20rpx;color:#636A77;text-align:center;padding:10rpx 0 0 0;margin-bottom:56rpx;}
+.swipers .b-bottom{position: relative;width:500rpx;height:16rpx;background:#F0F0F0;margin:0 auto;overflow: hidden;border-radius: 8rpx;}
+.swipers .b-bottom .pro{position: absolute;display:block;top:0;left:0;width:50%;background:#7EC83F;height: 100%;}
+
+.swipers .jd-num{display:block;font-size:28rpx;color:#212121;padding:4rpx 0 0 0;}
+.swipers .jd-all{color:#999;}
+.swipers .fx{width:108rpx;height:48rpx;border-radius: 30rpx;border:1px solid #e0e0e0;text-align: center;font-size:26rpx;color:#666;line-height:48rpx;}
+.swipers .b-top{margin-bottom:20rpx;}
+
+.intro{text-align: center;font-size:28rpx;color:#636A77;padding:35rpx 0 0 0;}
+
+.footer{position: fixed;z-index: 9;width:100%;left:0;right:0;bottom:0;height:96rpx;}
+.footer button{display:block;width:100%;height:100%;color:#fff;background:#25C891;border:0;border-radius: 0;}

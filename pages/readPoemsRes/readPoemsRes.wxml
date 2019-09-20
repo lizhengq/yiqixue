@@ -1,0 +1,146 @@
+<view class="body">
+
+  <view class='poems-wrap'>
+    <Scroll>
+      <view class='h2'>
+        <view class='h2-pinyin'>
+          <text>yong</text>
+          <text>liu</text>
+        </view>
+        <view class='h2-txt'>
+          <text>咏</text>
+          <text>柳</text>
+        </view>        
+      </view>
+      <view class='h3'>
+        <view class='h3-pinyin'>
+          <text>tang</text>
+          <text>he</text>
+          <text>zhi</text>
+          <text>zhang</text>
+        </view>
+        <view class='h3-txt'>
+          <text>唐</text>
+          <text>贺</text>
+          <text>知</text>
+          <text>章</text>
+        </view>
+      </view>
+      <view class='ul'>
+        <view class="li-pinyin">
+          <text>bi</text>
+          <text>yu</text>
+          <text>zhuang</text>
+          <text>cheng</text>
+          <text>yi</text>
+          <text>shu</text>
+          <text>gao</text>
+        </view>
+        <view class="li-txt">
+          <text>碧</text>
+          <text>玉</text>
+          <text>妆</text>
+          <text>成</text>
+          <text>一</text>
+          <text>树</text>
+          <text>高</text>
+        </view>
+        <view class="li-pinyin">
+          <text>bi</text>
+          <text>yu</text>
+          <text>zhuang</text>
+          <text>cheng</text>
+          <text>yi</text>
+          <text>shu</text>
+          <text>gao</text>
+        </view>
+        <view class="li-txt">
+          <text>碧</text>
+          <text>玉</text>
+          <text>妆</text>
+          <text>成</text>
+          <text>一</text>
+          <text>树</text>
+          <text>高</text>
+        </view>
+        <view class="li-pinyin">
+          <text class="red">bi</text>
+          <text>yu</text>
+          <text class="red">zhuang</text>
+          <text>cheng</text>
+          <text>yi</text>
+          <text class="red">shu</text>
+          <text>gao</text>
+        </view>
+        <view class="li-txt">
+          <text>碧</text>
+          <text>玉</text>
+          <text>妆</text>
+          <text>成</text>
+          <text>一</text>
+          <text>树</text>
+          <text>高</text>
+        </view>
+        <view class="li-pinyin">
+          <text>bi</text>
+          <text>yu</text>
+          <text>zhuang</text>
+          <text>cheng</text>
+          <text>yi</text>
+          <text>shu</text>
+          <text>gao</text>
+        </view>
+        <view class="li-txt">
+          <text>碧</text>
+          <text>玉</text>
+          <text>妆</text>
+          <text>成</text>
+          <text>一</text>
+          <text>树</text>
+          <text>高</text>
+        </view>
+      </view>
+    </Scroll>
+  </view>
+
+  <view class="footer">
+    <view class='progress'>
+      <slider block-size="12" block-color="#24C747" color="#E4F4E7" class="bars" step="2"/>
+      <view class='clearfloat times'>
+        <text class='f_l'>00:00</text>
+        <text class='f_r'>00:59</text>
+      </view>
+    </view>
+    <view class='f_l f-list listen-wrap'>
+      <view bindtap='clickPlay' class='try-listen {{playStatus==false?"pause":"play"}}'></view>
+      <view class="txt">{{playValue}}</view>
+    </view>
+    <view class='f_l f-list score'>
+      <view class='clearfloat score-status scores'><text class="f_l">66</text><label class="f_l">分</label></view>
+      <view class="txt"></view>
+    </view>
+    <view class='f_r f-list again-wrap'>
+      <view class='again'></view>
+      <view class="txt">重录</view>
+    </view>
+  </view>
+</view>
+
+<view class='mask' style='display:none'>
+  <view class='loadings'>
+    <label></label>
+    <text>加载中...</text>
+  </view>
+</view>
+
+
+<view class='mask' style='display:none'>
+  <view class='ifAgain'>
+    <view class='top'></view>
+    <view class='title'>你要重背这首诗吗？</view>
+    <view class='detail'>背诵需要技巧和耐心，请你多加油呀！</view>
+    <label></label>
+    <view class='btns'>重录</view>
+    <view class='btns'>取消</view>
+  </view>
+</view>

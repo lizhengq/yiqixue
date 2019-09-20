@@ -27,6 +27,13 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    //滚动事件
+    myScroll(e){
+      let that=this;
+      let scrollTopVal=e.detail.scrollTop;
+      let myEventDetail = { scrollTop: scrollTopVal }
+      that.triggerEvent('scrollEvent', myEventDetail)
+      console.log('look',scrollTopVal)
+    }
   }
 })

@@ -1,0 +1,47 @@
+<view class="body">
+  <view class='header'>
+    <label class='icon-menu'></label>
+    <view class='h-wrap'>
+      <view class='book'>
+        <text class='title'>小学人教版</text>
+        <text class='grade'>三年级</text>
+        <text class='sections'>45词</text>
+      </view>
+      <view class='change-book'>换书</view>
+    </view>
+  </view>
+
+  <view class='swipers'>
+    <swiper 
+    current="{{swiperCurrent}}" 
+    duration='{{swiperDuration}}' 
+    previous-margin="{{previousMargin}}" 
+    next-margin="{{nextMargin}}">
+      <swiper-item wx:for="courseList" wx:key="index">
+        <view class='s-wrap'>
+          <view class='s-mask' style="display:{{index==0?'none':'block'}};"></view>
+          <view class='item-con'>
+            <view class='item-title'>Unit 5 Do you like a soc...</view>
+            <view class='icon-menu'></view>
+            <view class='p'>单词列表</view> 
+            <view class='bottom'>
+              <view class='clearfloat b-top'>
+                <view class='f_l'>
+                  <text class="jd-num">进度6/<text class='jd-all'>10</text></text>
+                </view>
+                <view class='f_r fx'>复习</view>
+              </view>
+              <view class='b-bottom'><view class='pro'></view></view>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class="intro">—   左右滑动切换单元   —</view>
+
+  <view class='footer'>
+    <button class='away-study'>立即开始学习</button>
+  </view>
+</view>

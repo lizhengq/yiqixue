@@ -1,0 +1,249 @@
+<view class="body">
+
+  <view class='poems-wrap'>
+    <Scroll>
+      <view class='h2'>
+        <view class='h2-pinyin'>
+          <text>yong</text>
+          <text>liu</text>
+        </view>
+        <view class='h2-txt'>
+          <text>咏</text>
+          <text>柳</text>
+        </view>
+        <!-- <view class='f_l h2-row'>
+          <view class='h2-pinyi'>yǒng</view>
+          <view class='h2-txt'>咏</view>
+        </view>
+        <view class='f_l h2-row'>
+          <view class='h2-pinyi'>liǔ</view>
+          <view class='h2-txt'>柳</view>
+        </view> -->
+      </view>
+      <view class='h3'>
+        <view class='h3-pinyin'>
+          <text>tang</text>
+          <text>he</text>
+          <text>zhi</text>
+          <text>zhang</text>
+        </view>
+        <view class='h3-txt'>
+          <text>唐</text>
+          <text>贺</text>
+          <text>知</text>
+          <text>章</text>
+        </view>
+        <!-- <view class='f_l h3-row'>
+          <view class='h3-pinyi'>tang</view>
+          <view class='h3-txt'>[唐]</view>
+        </view>
+        <view class='f_l h3-row'>
+          <view class='h3-pinyi'>he</view>
+          <view class='h3-txt'>贺</view>
+        </view>
+        <view class='f_l h3-row'>
+          <view class='h3-pinyi'>zhi</view>
+          <view class='h3-txt'>知</view>
+        </view>
+        <view class='f_l h3-row'>
+          <view class='h3-pinyi'>zhang</view>
+          <view class='h3-txt'>章</view>
+        </view> -->
+      </view>
+      <view class='ul'>
+        <view class="li-pinyin">
+          <text>bi</text>
+          <text>yu</text>
+          <text>zhuang</text>
+          <text>cheng</text>
+          <text>yi</text>
+          <text>shu</text>
+          <text>gao</text>
+        </view>
+        <view class="li-txt">
+          <text>碧</text>
+          <text>玉</text>
+          <text>妆</text>
+          <text>成</text>
+          <text>一</text>
+          <text>树</text>
+          <text>高</text>
+        </view>
+        <view class="li-pinyin">
+          <text>bi</text>
+          <text>yu</text>
+          <text>zhuang</text>
+          <text>cheng</text>
+          <text>yi</text>
+          <text>shu</text>
+          <text>gao</text>
+        </view>
+        <view class="li-txt">
+          <text>碧</text>
+          <text>玉</text>
+          <text>妆</text>
+          <text>成</text>
+          <text>一</text>
+          <text>树</text>
+          <text>高</text>
+        </view>
+        <view class="li-pinyin">
+          <text>bi</text>
+          <text>yu</text>
+          <text>zhuang</text>
+          <text>cheng</text>
+          <text>yi</text>
+          <text>shu</text>
+          <text>gao</text>
+        </view>
+        <view class="li-txt">
+          <text>碧</text>
+          <text>玉</text>
+          <text>妆</text>
+          <text>成</text>
+          <text>一</text>
+          <text>树</text>
+          <text>高</text>
+        </view>
+        <view class="li-pinyin">
+          <text>bi</text>
+          <text>yu</text>
+          <text>zhuang</text>
+          <text>cheng</text>
+          <text>yi</text>
+          <text>shu</text>
+          <text>gao</text>
+        </view>
+        <view class="li-txt">
+          <text>碧</text>
+          <text>玉</text>
+          <text>妆</text>
+          <text>成</text>
+          <text>一</text>
+          <text>树</text>
+          <text>高</text>
+        </view>
+        <!-- <view class='li'>
+          <view class='li-pinyi'>bi</view>
+          <view class='li-txt'>碧</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>yu</view>
+          <view class='li-txt'>玉</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>zhuang</view>
+          <view class='li-txt'>妆</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>cheng</view>
+          <view class='li-txt'>成</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>yi</view>
+          <view class='li-txt'>一</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>shu</view>
+          <view class='li-txt'>树</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>gao</view>
+          <view class='li-txt'>高</view>
+        </view>
+
+        <view class='li'>
+          <view class='li-pinyi'>bi</view>
+          <view class='li-txt'>碧</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>yu</view>
+          <view class='li-txt'>玉</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>zhuang</view>
+          <view class='li-txt'>妆</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>cheng</view>
+          <view class='li-txt'>成</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>yi</view>
+          <view class='li-txt'>一</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>shu</view>
+          <view class='li-txt'>树</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>gao</view>
+          <view class='li-txt'>高</view>
+        </view>
+
+        <view class='li'>
+          <view class='li-pinyi'>bi</view>
+          <view class='li-txt'>碧</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>yu</view>
+          <view class='li-txt'>玉</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>zhuang</view>
+          <view class='li-txt'>妆</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>cheng</view>
+          <view class='li-txt'>成</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>yi</view>
+          <view class='li-txt'>一</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>shu</view>
+          <view class='li-txt'>树</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>gao</view>
+          <view class='li-txt'>高</view>
+        </view>
+
+        <view class='li'>
+          <view class='li-pinyi'>bi</view>
+          <view class='li-txt'>碧</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>yu</view>
+          <view class='li-txt'>玉</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>zhuang</view>
+          <view class='li-txt'>妆</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>cheng</view>
+          <view class='li-txt'>成</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>yi</view>
+          <view class='li-txt'>一</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>shu</view>
+          <view class='li-txt'>树</view>
+        </view>
+        <view class='li'>
+          <view class='li-pinyi'>gao</view>
+          <view class='li-txt'>高</view>
+        </view> -->
+      </view>
+    </Scroll>
+  </view>
+
+  <view class='footer'>
+    <view class='f-icon'></view>
+    <view class='f-txt'>点击话筒，开始录音</view>
+  </view>
+</view>

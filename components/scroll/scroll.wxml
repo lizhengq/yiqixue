@@ -1,4 +1,5 @@
 <scroll-view 
+  bindscroll="myScroll"
   scroll-x="{{scroll.scrollX}}" 
   scroll-y="{{scroll.scrollY}}" 
   style="width:{{scroll.width}};height:{{scroll.height}};">

@@ -1,0 +1,29 @@
+<view class="body">
+  <view class='main'>
+    <view class='title'>咏柳</view>
+    <view class='time'>00:30</view>
+    <view class='one-line'></view>
+  </view>
+
+  <view class="footer">
+    <view class='f_l f-list again-wrap'>
+      <view class='again'></view>
+      <view class="txt">重录</view>
+    </view>
+    <view class='f_l f-list plays'>
+      <view bindtap='clickPlayStatus' class='play-status {{reconding==true?"play":"pause"}}'></view>
+      <view class="txt">{{reconValue}}</view>
+    </view>
+    <view class='f_r f-list finish-wrap'>
+      <view class='finish'></view>
+      <view class="txt">结束</view>
+    </view>
+  </view>
+</view>
+
+<view class='mask' wx:if="{{loadStatus}}">
+  <view class='loads'>
+    <label></label>
+    <text>玩命识别中</text>
+  </view>
+</view>
