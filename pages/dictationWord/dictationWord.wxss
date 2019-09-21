@@ -1,0 +1,22 @@
+page{background:#f0f0f0;}
+.voice{margin:200rpx 0 200rpx 0;}
+.voice .icon-voice{display:block;width:100rpx;height:100rpx;margin:0 auto;}
+
+.voice-detail{text-align: center;font-size:28rpx;color:#636A77;line-height:1.4;padding:39rpx 30rpx 0 30rpx;}
+
+.bottom-wrap{position:fixed;z-index: 9;left:0;right:0;bottom:60rpx;padding:0 30rpx 0 59rpx;}
+.bottom-wrap .pages{display:inline-block;font-size:36rpx;color:#212121;}
+.bottom-wrap .b-l{color:#999;margin-top:10rpx;}
+.bottom-wrap .see{width:200rpx;height:66rpx;border-radius:8rpx;border:1px solid #DBDBDB;text-align: center;line-height:66rpx;font-size:28rpx;color:#636A77;}
+.bottom-wrap .icon-voice{width:160rpx;margin-left:20rpx;}
+
+.inp-main{text-align: center;position: relative;}
+.inp-main .oinput{opacity: 0;filter:alpha(opacity=0);position: absolute;top:0;bottom:0;left:0;right:0;}
+.inp-main label{display:inline-block;width:34rpx;margin-right:10rpx;}
+.inp-main .normals{border-bottom:4rpx solid transparent;}
+.inp-main .bottom{border-bottom:4rpx solid #636A77;}
+
+
+.keyboard{width:100%;height:auto;background:#d8d9dd;text-align: center;}
+/* .key-row{display:flex;fl} */
+.keyboard text{display:inline-block;margin-right:10rpx;width:65rpx;height:85rpx;background:#fff;font-size:30rpx;color:#666;text-align: center;line-height:85rpx;}

@@ -1,0 +1,38 @@
+<view class="body">
+  <view class='voice'>
+    <image class='icon-voice' src='http://amcimg.vipyqx.com/commFile/oss/image/download/029c6ccae93e46638c751388d2b64ad4.png'></image>
+  </view>
+  <view class='inp'>
+    <view class='inp-main'>
+      <label wx:if="wordList" wx:for="{{wordList}}" wx:key="index" class='normals bottom'></label>
+      <!-- <label class='normals bottom'></label>
+      <label class='normals bottom'></label>
+      <label class='normals bottom'></label> -->
+    </view>
+  </view>
+
+  <view class='voice-detail'>
+    adj.　令人满意的，好的；有利的；熟练的　n.　好处；善行；美德　adv.　好地
+  </view>
+
+  <view class='clearfloat bottom-wrap'>
+    <view class="f_l b-l">
+      <text class="pages">9</text>/10
+    </view>
+    <view class='f_r see icon-voice'>提示</view>
+    <view class='f_r see'>查看提示</view>
+  </view>
+</view>
+
+<!-- 自定英文键盘 -->
+<view class='keyboard'>
+  <view class='key-row'>
+    <text wx:for="{{keyboard.one}}" wx:key="index">{{item}}</text>
+  </view>
+  <view class='key-row'>
+    <text wx:for="{{keyboard.two}}" wx:key="index">{{item}}</text>
+  </view>
+  <view class='key-row'>
+    <text wx:for="{{keyboard.three}}" wx:key="index">{{item}}</text>
+  </view>
+</view>

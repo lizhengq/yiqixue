@@ -1,0 +1,28 @@
+<view class="body">
+  <view class='banner'></view>
+  <view class='wrap'>
+    <view class='main'>
+      <view class='clearfloat rows'>
+        <view class='f_l r-l'><image class='img' src='http://amcimg.vipyqx.com/commFile/oss/image/download/f7b6b2ab6bb347b5be3759aa27b03578.png'></image></view>
+        <view class='f_l r-c'>
+          <view class='sm'>听音拼写<text class='score'>(8词)</text></view>
+          <view class='p'>根据单词读音拼写正确的单词</view>
+        </view>
+      </view>
+      <view class='clearfloat rows'>
+        <view class='f_l r-l'><image class='img' src='http://amcimg.vipyqx.com/commFile/oss/image/download/5c56f43694314fb9a144214d10e38e75.png'></image></view>
+        <view class='f_l r-c'>
+          <view class='sm'>听音拼写<text class='score'>(8词)</text></view>
+          <view class='p'>根据单词读音拼写正确的单词</view>
+        </view>
+      </view>
+      <view class='clearfloat rows'>
+        <view class='f_l r-l'><image class='img' src='http://amcimg.vipyqx.com/commFile/oss/image/download/80a72d4a43e74105a7ea7b1a2ec1ba08.png'></image></view>
+        <view class='f_l r-c'>
+          <view class='sm'>听音拼写<text class='score'>(8词)</text></view>
+          <view class='p'>根据单词读音拼写正确的单词</view>
+        </view>
+      </view>
+    </view> 
+  </view>
+</view>

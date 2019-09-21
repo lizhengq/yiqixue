@@ -1,0 +1,10 @@
+page{background:#CCD3DB;}
+.banner{width:316rpx;height:224rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/2da04e75d83a431980d824fb666b5f15.png') no-repeat;background-size: contain;margin:0 auto;margin-top:40rpx;}
+
+.wrap{background:#f0f0f0;padding:0 30rpx;border-top-left-radius: 16rpx;border-top-right-radius: 16rpx;position: absolute;top:224rpx;left:0;bottom:0;right:0;}
+.main{transform: translateY(-80rpx);-webkit-transform: translateY(-80rpx);}
+.rows{padding:50rpx;background:#fff;border-radius: 16rpx;margin-bottom:30rpx;}
+.rows .img{width:100rpx;height:100rpx;margin-right:80rpx;}
+.rows .sm{font-size:32rpx;color:#212121;line-height:1;margin-bottom:25rpx;}
+.rows .p{font-size:28rpx;color:#636A77;line-height:1;}
+.rows .score{display:inline-block;color:#ccc;padding:0 0 0 10rpx;}

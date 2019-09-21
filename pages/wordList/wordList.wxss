@@ -1,0 +1,2 @@
+@import '../wordBook/wordBook.wxss';
+.b-wrap{bottom:0 !important;}

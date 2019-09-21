@@ -6,6 +6,9 @@
   },
 
   "pages":[
+    "pages/dictationWord/dictationWord",
+    "pages/wordList/wordList",
+    "pages/reviewWords/reviewWords",
     "pages/wordBook/wordBook",
     "pages/studyGraduate/studyGraduate",
     "pages/myRemember/myRemember",

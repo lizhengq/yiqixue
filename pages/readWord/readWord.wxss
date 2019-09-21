@@ -8,10 +8,11 @@ page{background:#F0F0F0;}
 .li .succ{background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/a55b067874dd4dd8b4c1265d75c029dc.png') no-repeat;background-size:contain;}
 .li .err{background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/38a5b99847d74639963221ddd6f9da18.png') no-repeat;background-size:contain;}
 .li .li-fy .icon-voice{display:block;width:60rpx;height:60rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/15dca959382142a8be38b5493f4094b7.png') no-repeat;background-size:contain;margin-right:15rpx;}
-.bottom-wrap{position:fixed;z-index: 9;left:0;right:0;bottom:60rpx;padding:0 30rpx 0 59rpx;}
+
 .li{padding:0 30rpx 0 30rpx;}
 .li .li-row{position: relative;background:#fff;margin-bottom:30rpx;border-radius: 16rpx;padding:30rpx;height:136rpx;}
 .li .li-row text{display:inline-block;font-size:28rpx;color:#636A77;}
+.bottom-wrap{position:fixed;z-index: 9;left:0;right:0;bottom:60rpx;padding:0 30rpx 0 59rpx;}
 .bottom-wrap .pages{display:inline-block;font-size:36rpx;color:#212121;}
 .bottom-wrap .b-l{color:#999;margin-top:10rpx;}
 .bottom-wrap .see{width:200rpx;height:66rpx;border-radius:8rpx;border:1px solid #DBDBDB;text-align: center;line-height:66rpx;font-size:28rpx;color:#636A77;}
