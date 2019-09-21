@@ -1,0 +1,42 @@
+<view class="body">
+  <!-- 导航栏 -->
+  <view class='clearfloat b-header'>
+    <view data-index="0" bindtap='navSwitch' class="f_l h-row {{navIndex==0?'nav-actived':''}}">错词(6)</view>
+    <view data-index="1" bindtap='navSwitch' class="f_r h-row {{navIndex==1?'nav-actived':''}}">收藏(14)</view>
+  </view>
+
+  <view class='b-wrap'>
+
+    <!-- 错词为空 -->
+    <view class='err-empty' style='display:none;'>
+      <image class='icon-hand' src='http://amcimg.vipyqx.com/commFile/oss/image/download/695a1caa49944f3fb1e66e8af38d6cab.png'></image>
+      <view class='e-detail'>太棒了，一个错词都没有！</view>
+    </view>
+
+    <!-- 收藏为空 -->
+    <view class='collect-empty'>
+      <image class='icon-hand' src='http://amcimg.vipyqx.com/commFile/oss/image/download/a3870b89a2ba4b0aac8780f4c38d6b10.png'></image>
+      <view class='e-detail'>空空如也，快去收藏单词吧！</view>
+    </view>
+
+    <!-- <Scroll>
+      <view class='ul err-word'>
+        <view class='li' wx:for="{{wordList}}" wx:key="index">
+          <view class="p">look out</view>
+          <label class='icon-look'></label>
+          <label class='icon-start {{index==0?"icon-collect":""}}'></label>
+        </view>
+        <view class='b-detail'>—   没有更多单词啦   —</view>
+      </view>
+    </Scroll> -->
+
+
+    <!-- <view class='ul word-collect' style='display:none;'>
+      <view class='li'>22</view>
+    </view> -->
+  </view>
+</view>
+
+<view class='footer'>
+  <view class='fx fx-actived'>复习</view>
+</view>

@@ -1,0 +1,59 @@
+<view class="body">
+  <view class='clearfloat b-title'>
+    <view class="f_l t-name">good</view>
+    <view class='f_r icon-start'><text>收藏</text></view>
+  </view>
+  
+  <view class='b-detail'>
+    <view class='d-voice'>
+      <image src='http://amcimg.vipyqx.com/commFile/oss/image/download/f8846ca903d0481abe2b6904015d5a58.png'></image>
+      <text>[美] ,æɡr'kltərəl</text>
+    </view>
+    <view class='d-js'>adj. 好的</view>
+  </view>
+
+  <view class='b-ex'>
+    <view class='h3'>例句</view>
+    <view class='ex-con'>
+      <view>Good morning,lishao</view>
+      <view>早上好,李少</view>
+      <view class='more'>更多例句</view>
+    </view>
+  </view>
+  <view class='b-ex'>
+    <view class='h3'>记忆方法</view>
+    <view class='ex-con'>
+      <view>我有一个绝密的记忆方法，他是这样的，很简单，可以快速记忆。</view>
+    </view>
+  </view>
+  <view class='b-ex'>
+    <view class='h3'>记忆视频</view>
+    <view class='ex-con'>
+      <view class='video'>
+        <label class='play-status play'></label>
+      </view>
+    </view>
+  </view>
+
+  <view class='b-ex' style='padding:100rpx 0 0 0;margin-bottom:60rpx;'>
+    <view class='h3' style='padding:0 0 30rpx 30rpx;'>我的记法</view>
+    <view class='ex-con'>
+      <view class='remember'>
+        <view class='first' style='display:none;'>
+          <image src='http://amcimg.vipyqx.com/commFile/oss/image/download/4cd61cbb2cb6493baa40cbccd713a740.png'></image>
+          <text>添加记忆方法</text>
+        </view>
+        <view class='yzd'>啊拉手快点放假拉克丝的肌肤了阿克苏交电费列罗框架上地方拉斯的会计法拉手快点放假阿斯兰的咖啡撒娇的快乐减肥</view>
+        <view class='clearfloat eidt-btn'>
+          <image class='f_r edit' src=''></image>
+          <image class='f_r dele' src=''></image>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='continue'>
+    <view class='continue-btn'>继续答题</view>
+  </view>
+
+</view>

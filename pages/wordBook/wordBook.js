@@ -1,21 +1,30 @@
-// pages/nowMaterial/nowMaterial.js
+// pages/wordBook/wordBook.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    swiperCurrent:0,
-    swiperDuration:400,
-    previousMargin:'0rpx',
-    nextMargin:'0rpx',
-    courseList:[
+    navIndex:0,
+    wordList:[
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
       {},
       {},
       {},
       {}
-    ],
-    studyBtn:true
+    ]
   },
 
   /**
@@ -32,26 +41,20 @@ Page({
 
   },
 
-  //自定义事件
-  currentChange(e){
-    let that=this;
-    //console.log('look',e)
-    if(e.detail.current!=0){
-      that.setData({
-        studyBtn: false
-      })
-    }else{
-      that.setData({
-        studyBtn: true
-      })
-    }
-  },
-
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
 
+  },
+
+  //自定义事件
+  navSwitch(e){
+    let that=this;
+    let index=e.currentTarget.dataset.index;
+    that.setData({
+      navIndex:index
+    })
   },
 
   /**

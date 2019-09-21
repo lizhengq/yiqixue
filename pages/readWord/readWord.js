@@ -1,21 +1,11 @@
-// pages/nowMaterial/nowMaterial.js
+// pages/readWord/readWord.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    swiperCurrent:0,
-    swiperDuration:400,
-    previousMargin:'0rpx',
-    nextMargin:'0rpx',
-    courseList:[
-      {},
-      {},
-      {},
-      {}
-    ],
-    studyBtn:true
+
   },
 
   /**
@@ -30,21 +20,6 @@ Page({
    */
   onReady: function () {
 
-  },
-
-  //自定义事件
-  currentChange(e){
-    let that=this;
-    //console.log('look',e)
-    if(e.detail.current!=0){
-      that.setData({
-        studyBtn: false
-      })
-    }else{
-      that.setData({
-        studyBtn: true
-      })
-    }
   },
 
   /**

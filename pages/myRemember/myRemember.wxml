@@ -1,0 +1,20 @@
+<view class="body">
+  <view class='b-header'>
+    <text class='h-tit'>rain</text>
+    <text class='h-detail'>adj. 好的，令人满意的；  n. 好处；  adv. 好地；</text>
+  </view>
+  <view class='b-wrap'>
+    <view class='clearfloat w-header'>
+      <view class='f_l my-detail'>
+        <image src='http://amcimg.vipyqx.com/commFile/oss/image/download/29c45f6324634198a977d263e434d71b.png'></image>
+        <text>我的记法</text>
+      </view>
+      <view class='f_r word-num'>96/200</view>
+    </view>
+    <view class='imp'>
+      <textarea maxlength="200" placeholder-class="clsPlaceholder" placeholder='请输入内容'></textarea>
+    </view>
+  </view>
+</view>
+
+<view class='save'>保存</view>

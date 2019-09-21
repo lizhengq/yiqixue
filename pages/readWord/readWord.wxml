@@ -1,0 +1,51 @@
+<view class="body">
+  <view class='scrolls'>
+    <Scroll>
+      <view class='li'>
+        <view class='li-title'>clap</view>
+        <view class='li-fy'>
+          <label class='icon-voice'></label>
+          <text class='voice'>[美]，klæp</text>
+        </view>
+        <view class='li-row'>
+          <!-- <label class='icons succ'></label>
+          <label class='icons err'></label> -->
+          <text class='txt'>phr. 当心，留神</text>
+        </view>
+        <view class='li-row'>
+          <!-- <label class='icons succ'></label>
+          <label class='icons err'></label> -->
+          <text class='txt'>phr. 当心，留神</text>
+        </view>
+        <view class='li-row'>
+        <!-- <label class='icons succ'></label>
+          <label class='icons err'></label> -->
+          <text class='txt'>phr. 当心，留神</text>
+        </view>
+        <view class='li-row'>
+        <!-- <label class='icons succ'></label>
+          <label class='icons err'></label> -->
+          <text class='txt'>phr. 当心，留神</text>
+        </view>
+      </view>
+    </Scroll>
+  </view>
+  
+
+  <view class='clearfloat bottom-wrap'>
+    <view class="f_l b-l">
+      <text class="pages">9</text>/10
+    </view>
+    <view class='f_r see'>查看提示</view>
+  </view>
+</view>
+
+<view class='loadings' style='display:none;'>
+  <label class='l-bg'></label>
+  <view class="l-bottom">
+    <text>单词数据加载中...</text>
+    <view class='progress'>
+      <view class='pro'></view>
+    </view>
+  </view>
+</view>

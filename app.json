@@ -6,6 +6,11 @@
   },
 
   "pages":[
+    "pages/wordBook/wordBook",
+    "pages/studyGraduate/studyGraduate",
+    "pages/myRemember/myRemember",
+    "pages/worlTip/worlTip",
+    "pages/readWord/readWord",
     "pages/nowMaterial/nowMaterial",
     "pages/selectMaterial/selectMaterial",
     "pages/readPoemsRes/readPoemsRes",

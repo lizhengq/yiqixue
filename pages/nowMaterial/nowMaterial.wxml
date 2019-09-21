@@ -16,10 +16,11 @@
     current="{{swiperCurrent}}" 
     duration='{{swiperDuration}}' 
     previous-margin="{{previousMargin}}" 
-    next-margin="{{nextMargin}}">
+    next-margin="{{nextMargin}}" 
+    bindchange="currentChange">
       <swiper-item wx:for="courseList" wx:key="index">
         <view class='s-wrap'>
-          <view class='s-mask' style="display:{{index==0?'none':'block'}};"></view>
+          <view class='s-mask' style="display:{{index==0?'none':'block'}};"><label class='lock'></label></view>
           <view class='item-con'>
             <view class='item-title'>Unit 5 Do you like a soc...</view>
             <view class='icon-menu'></view>
@@ -31,7 +32,7 @@
                 </view>
                 <view class='f_r fx'>复习</view>
               </view>
-              <view class='b-bottom'><view class='pro'></view></view>
+              <view class='b-bottom'><view class='pro' style="width:{{index!=0?'0%':'65%'}}"></view></view>
             </view>
           </view>
         </view>
@@ -42,6 +43,6 @@
   <view class="intro">—   左右滑动切换单元   —</view>
 
   <view class='footer'>
-    <button class='away-study'>立即开始学习</button>
+    <button class='away-study {{studyBtn==false?"disabled":""}}'>立即开始学习</button>
   </view>
 </view>

@@ -1,0 +1,28 @@
+.b-header{font-size:28rpx;color:#636A77;height:80rpx;background:#f0f0f0;padding:0 154rpx;}
+.h-row{border-bottom:6rpx solid transparent;line-height:74rpx;padding:0 20rpx;}
+.nav-actived{border-bottom:6rpx solid #636A77;}
+
+
+.footer{position:fixed;bottom:0;left:0;right:0;z-index: 9;}
+.footer .fx{width:100%;height:96rpx;color:#fff;text-align: center;line-height:96rpx;font-size:36rpx;background:#25C891;}
+.footer .fx-actived{opacity: 0.5;filter:alpha(opacity=50);}
+
+.b-wrap{position: absolute;top:80rpx;bottom:96rpx;left:0;right:0;}
+
+.err-word{padding:0 0 0 30rpx;}
+.err-word .li{position: relative;border-bottom:1px solid #e6e6e6;line-height:1;padding:34rpx 0;}
+
+.err-word .li .p{font-size:36rpx;color:#212121;}
+.err-word label{position: absolute;display:block;}
+.err-word .icon-look{width:38rpx;height:40rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/1b88e228eef1434c91c6bf6a438f77c5.png') no-repeat;background-size:contain;top:30rpx;right:150rpx;}
+.icon-start{width:40rpx;height:38rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/85119884fd9344f190a62ef81c7a3a00.png') no-repeat;background-size:contain;top:30rpx;right:30rpx;}
+.icon-collect{width:40rpx;height:38rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/ea5f17dcf62f491ebcb97a5085c5bc81.png') no-repeat;background-size:contain;}
+.b-detail{font-size:24rpx;color:#B3B3B3;text-align:center;padding:60rpx 0 50rpx 0;}
+
+.err-empty,.collect-empty{padding:284rpx 0 0 0;}
+.err-empty .icon-hand,
+.collect-empty .icon-hand{display:block;width:129rpx;height:98rpx;margin:0 auto;margin-bottom:50rpx;}
+.err-empty .e-detail,
+.collect-empty .e-detail{text-align: center;color:#636A77;font-size:30rpx;}
+
+.collect-empty .icon-hand{width:110rpx;height:94rpx;}

@@ -1,0 +1,30 @@
+page{background:#f0f0f0;}
+.b-title{padding:70rpx 29rpx 0 30rpx;}
+.t-name{font-size:60rpx;color:#212121;}
+.icon-start{width:40rpx;height:38rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/b7853785ec2445b4922feae3e95dd206.png') no-repeat;background-size:contain;}
+.icon-start text{display:inline-block;font-size:20rpx;color:#636A77;padding-top:40rpx;}
+
+.b-detail{padding:0 29rpx 0 30rpx;}
+.d-voice{display:flex;flex-direction: row;align-items: center;padding:35rpx 0 30rpx 0;}
+.d-voice image{width:18rpx;height:28rpx;}
+.d-voice text{display:inline-block;font-size:30rpx;color:#B3B3B3;padding:0 0 0 10rpx;}
+.d-js{font-size:30rpx;color:#212121;}
+
+.b-ex{padding:100rpx 29rpx 0 30rpx;font-size:30rpx;color:#212121;}
+.b-ex .h3{font-size:28rpx;color:#999;line-height:1;padding:0 0 30rpx 0;}
+.ex-con{line-height:1.4;}
+.more{font-size:28rpx;color:#636A77;line-height:1;padding-top:30rpx;}
+.video{width:100%;height:422rpx;background:#ccc;position: relative;}
+.video .play-status{width:100rpx;height:100rpx;position: absolute;top:50%;left:50%;margin:-50rpx 0 0 -50rpx;}
+.video .play{background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/0ed613b302d04272b48b15ad9f8d0b74.png') no-repeat;background-size:contain;}
+
+.remember{width:100%;background:#fff;padding:40rpx 30rpx;}
+.first image{width:28rpx;height:28rpx;}
+.first text{display:inline-block;padding:0 0 0 20rpx;font-size:30rpx;color:#636A77;}
+.continue{width:100%;padding:20rpx 0 20rpx 0;border-top:1px solid #DBDBDB;}
+.continue .continue-btn{width:690rpx;height: 66rpx;text-align: center;line-height:66rpx;border:2rpx solid #bdbdbd;font-size:30rpx;color:#636A77;margin:0 auto;border-radius: 8rpx;}
+
+.yzd{font-size:30rpx;color:212121;}
+.eidt-btn{transform: translateY(20rpx);-webkit-transform: translateY(20rpx);}
+.eidt-btn .dele{display:block;width:22rpx;height:28rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/1c6e836a25d94a3e936b44d001c5f243.png') no-repeat;background-size:contain;margin-right:40rpx;}
+.eidt-btn .edit{display:block;width:28rpx;height:28rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/29c45f6324634198a977d263e434d71b.png') no-repeat;background-size:contain;}
