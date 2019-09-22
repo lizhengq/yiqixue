@@ -3,8 +3,9 @@
     <image class='icon-voice' src='http://amcimg.vipyqx.com/commFile/oss/image/download/029c6ccae93e46638c751388d2b64ad4.png'></image>
   </view>
   <view class='inp'>
-    <view class='inp-main'>
-      <label wx:if="wordList" wx:for="{{wordList}}" wx:key="index" class='normals bottom'></label>
+    <view class='inp-main' bindtap='alertKey'>
+      <!-- <input wx:if="{{inputStatus}}" bindfocus="myFocus" class='oinput' type='text'></input> -->
+      <label wx:if="{{wordList}}" wx:for="{{wordList}}" wx:key="index" class='normals {{item?"":"bottom"}}'>{{item}}</label>
       <!-- <label class='normals bottom'></label>
       <label class='normals bottom'></label>
       <label class='normals bottom'></label> -->
@@ -25,14 +26,14 @@
 </view>
 
 <!-- 自定英文键盘 -->
-<view class='keyboard'>
+<view class='keyboard {{keyboardstatus==true?"keyboard-ani":""}}'>
   <view class='key-row'>
-    <text wx:for="{{keyboard.one}}" wx:key="index">{{item}}</text>
+    <text data-value="{{item}}" bindtap='keyEvent' wx:for="{{keyboard.one}}" wx:key="index">{{item}}</text>
   </view>
   <view class='key-row'>
-    <text wx:for="{{keyboard.two}}" wx:key="index">{{item}}</text>
+    <text data-value="{{item}}" bindtap='keyEvent' wx:for="{{keyboard.two}}" wx:key="index">{{item}}</text>
   </view>
   <view class='key-row'>
-    <text wx:for="{{keyboard.three}}" wx:key="index">{{item}}</text>
+    <text data-value="{{item}}" bindtap='keyEvent' wx:for="{{keyboard.three}}" wx:key="index">{{item}}</text>
   </view>
 </view>
