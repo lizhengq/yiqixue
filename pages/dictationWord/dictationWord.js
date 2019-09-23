@@ -7,12 +7,13 @@ Page({
   data: {
     keyboardstatus:false,
     keyValue:'',
-    wordCount:6,
+    wordCount:4,
     keyboard:{
       one: ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'],
       two: ['a', 's', 'd', 'f', 'g', 'h', 'j','k','l'],
       three: ['z', 'x', 'c', 'v', 'b', 'n', 'm', '删']
-    }
+    },
+    animationData:{}
   },
 
   /**
@@ -35,7 +36,7 @@ Page({
    */
   onShow: function () {
     let that=this;
-    let wordCount=6;
+    let wordCount=that.data.wordCount;
     let arrValue=[];
     for(let i=0;i<wordCount;i++){
       arrValue.push('');
@@ -67,10 +68,26 @@ Page({
   //弹起或收起键盘
   alertKey(){
     let that=this;
-    //console.log(1111,that.data)
+    let animation=wx.createAnimation({
+      duration:400,
+      timingFunction:'ease',
+      delay:0
+    })
+
+    let status = that.data.keyboardstatus;
+    let _flag=false;
+    if(status){
+      animation.opacity(0).translateY('40vh').step();
+      _flag=false;
+    }else{
+      animation.opacity(1).translateY(0).step();
+      _flag = true;
+    }
+
     that.setData({
-      keyboardstatus: !that.data.keyboardstatus
-    });
+      keyboardstatus: _flag,
+      animationData: animation.export()
+    })
   },
 
   /**

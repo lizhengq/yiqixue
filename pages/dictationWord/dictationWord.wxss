@@ -10,34 +10,15 @@ page{background:#f0f0f0;}
 .bottom-wrap .see{width:200rpx;height:66rpx;border-radius:8rpx;border:1px solid #DBDBDB;text-align: center;line-height:66rpx;font-size:28rpx;color:#636A77;}
 .bottom-wrap .icon-voice{width:160rpx;margin-left:20rpx;}
 
-.inp-main{text-align: center;position: relative;width:100%;height:48rpx;}
+.inp-main{text-align: center;position: relative;width:100%;height:48rpx;margin-top:-10rpx;}
 .inp-main .oinput{opacity: 0;filter:alpha(opacity=0);position: absolute;top:0;bottom:0;left:0;right:0;}
 .inp-main label{display:inline-block;width:40rpx;margin-right:10rpx;height:46rpx;line-height: 46rpx;font-size:34rpx;color:#212121;}
 .inp-main .normals{border-bottom:4rpx solid #f0f0f0;}
 .inp-main .bottom{border-bottom:4rpx solid #636A77;}
 
 
-.keyboard{width:100%;padding:30rpx 0 10rpx 0;background:#d8d9dd;text-align: center;position: fixed;z-index: 99;bottom:-1000vh;left:0;right:0;}
+.keyboard{width:100%;padding:30rpx 0 10rpx 0;background:#d8d9dd;text-align: center;position: fixed;z-index: 99;bottom:0;opacity: 0;filter:alpha(opacity=0);left:0;right:0;transform: translateY(40vh);-webkit-transform: translateY(40vh);}
 .key-row{margin-bottom:20rpx;}
 .key-row text:last-child{margin-right:0;}
 .keyboard text{display:inline-block;margin-right:10rpx;width:65rpx;height:75rpx;background:#fff;font-size:30rpx;color:#666;text-align: center;line-height:75rpx;border-radius: 6rpx;box-shadow: 1rpx 0 10rpx #999;}
 
-.keyboard-ani{animation: keys 0.4s linear forwards;-webkit-animation: keys 0.4s linear forwards;}
-
-@keyframes keys{
-  from{
-    bottom:-1000vh;
-  }
-  to{
-    bottom:-0vh;
-  }
-}
-
-@-webkit-keyframes keys{
-  from{
-    bottom:-1000vh;
-  }
-  to{
-   bottom:-0vh;
-  }
-}

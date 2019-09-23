@@ -26,7 +26,7 @@
 </view>
 
 <!-- 自定英文键盘 -->
-<view class='keyboard {{keyboardstatus==true?"keyboard-ani":""}}'>
+<view class='keyboard' animation="{{animationData}}">
   <view class='key-row'>
     <text data-value="{{item}}" bindtap='keyEvent' wx:for="{{keyboard.one}}" wx:key="index">{{item}}</text>
   </view>
