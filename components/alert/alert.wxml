@@ -1,7 +1,19 @@
-<view class="alert-mask" wx:if="{{alert.display}}">
+<view class="alert-mask" hidden="{{!flag}}">
+  <view class='alert-wrap'>
+    <view class='alert-title'>{{alert.title}}</view>
+    <view class='alert-con'>{{alert.con}}</view>
+    <view class='alert-btns {{alert.confirmText!="" ? "has-bottom":""}}'>
+      <view bindtap='_cancalBtn' class='cancel-text btn-row {{alert.cancalText!=""?"two-row":"one-row"}}' wx:if="{{alert.cancalText!=''}}">{{alert.cancalText}}</view>
+      <view bindtap='_confirmBtn' class='confirm-text btn-row {{alert.cancalText!=""?"two-row":"one-row"}}' wx:if="{{alert.confirmText!=''}}">{{alert.confirmText}}</view>
+    </view>
+  </view>
+</view>
+
+
+<!-- <view class="alert-mask" wx:if="{{alert.display}}">
   <view class='alert-wrap' wx:if="{{alert.display}}">
     <view class='alert-title'>{{alert.title}}</view>
     <view class='alert-con'>{{alert.con}}</view>
     <view bindtap='alertBtn' class='alert-btn'>{{alert.btnVal}}</view>
   </view>
-</view>
+</view> -->

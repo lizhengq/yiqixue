@@ -3,7 +3,7 @@
 .video-container .play-icon{position: absolute;width:100rpx;height:100rpx;border-radius: 50%;overflow: hidden;left:50%;top:50%;margin:-50rpx 0 0 -50rpx;}
 .video-container .played{background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/f25152c2921b4e079c10ae8d7603528b.png') no-repeat;background-size:contain;}
 .zw{width:100%;height:20rpx;background:#F7F7F7;}
-.nation-container{width:100%;position: absolute;left:0;top:420rpx;right:0;}
+.nation-container{width:100%;position: absolute;left:0;top:420rpx;right:0;bottom:0;}
 .nation-container .nation-detail{padding:0 30rpx 76rpx 30rpx;position: relative;}
 .nation-container .course-list{padding:0 0 0 30rpx;}
 .nation-container .jt-icon{position: absolute;bottom:36rpx;left:50%;width:28rpx;height:16rpx;margin:0 0 0 -14rpx;background:url('http://amcimg.vipyqx.com/commFile/oss/image/download/e547dbe0ce6f49c0adf9ca5331dd995e.png') no-repeat;background-size:contain;transition: all 0.2s;-webkit-transition: all 0.2s;}

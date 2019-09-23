@@ -7,40 +7,42 @@
   </view>
 
   <view class='nation-container'>
-    <view class='nation-detail'>
-      <view class='line h3'>黄承亮教资魔法记忆</view>
-      <view class='p'>1.由全国教师资格证命题研究专家精心挑选出的必考主观题。</view>
-      <view class='p'>2.通过世界记忆大师专家团队研发，采用串联法、数字超级定桩法、记忆宫殿法讲授。</view>
-      <view class='p'>3.图文并茂，容易理解吸收，快速提升考点记忆能力。</view>
-      <view class='p'>4.100个主观题按顺序，按考点精准记忆，做到顺背、倒背、抽背。</view>
-      <view class='p'>5.线上班主任监督打卡背诵，让你100%通过教师资格证笔试。</view>
-      <label class='jt-icon jt0'></label>   
-    </view>
-    <view class='zw'></view>
-    <view class='course-list'>
-      <view class='li' wx:for="{{courseList}}" wx:key="index">
-        <view class='li-left'><label class='play-status {{index==0?"play-list-foc":"play-list-nor"}}'></label></view>
-        <view class='li-center'>
-          <view class='li-title {{index==0?"title-foc":""}}'>导学+理论精讲—结构化+试讲...</view>
-          <view class='li-time'>
-            <text wx:if="{{index==0}}" class='try'>试听</text>
-            <text class='times'>11分20秒</text>
-          </view>
-        </view>
-        <view class='li-right' data-idx="{{index}}" bindtap="doWork"><label class='eidtorlock {{index==0?"edit-succ":"lock"}}'></label></view>
+    <Scroll>
+      <view class='nation-detail'>
+        <view class='line h3'>黄承亮教资魔法记忆</view>
+        <view class='p'>1.由全国教师资格证命题研究专家精心挑选出的必考主观题。</view>
+        <view class='p'>2.通过世界记忆大师专家团队研发，采用串联法、数字超级定桩法、记忆宫殿法讲授。</view>
+        <view class='p'>3.图文并茂，容易理解吸收，快速提升考点记忆能力。</view>
+        <view class='p'>4.100个主观题按顺序，按考点精准记忆，做到顺背、倒背、抽背。</view>
+        <view class='p'>5.线上班主任监督打卡背诵，让你100%通过教师资格证笔试。</view>
+        <label class='jt-icon jt0'></label>   
       </view>
-
-      <!-- <view class='li'>
-        <view class='li-left'><label class='play-status'></label></view>
-        <view class='li-center'>
-          <view class='li-title'>导学+理论精讲—结构化+试讲...</view>
-          <view class='li-time'>
-            <text class='times'>11分20秒</text>
+      <view class='zw'></view>
+      <view class='course-list'>
+        <view class='li' wx:for="{{courseList}}" wx:key="index">
+          <view class='li-left'><label class='play-status {{index==0?"play-list-foc":"play-list-nor"}}'></label></view>
+          <view class='li-center'>
+            <view class='li-title {{index==0?"title-foc":""}}'>导学+理论精讲—结构化+试讲...</view>
+            <view class='li-time'>
+              <text wx:if="{{index==0}}" class='try'>试听</text>
+              <text class='times'>11分20秒</text>
+            </view>
           </view>
+          <view class='li-right' data-idx="{{index}}" bindtap="doWork"><label class='eidtorlock {{index==0?"edit-succ":"lock"}}'></label></view>
         </view>
-        <view class='li-right'><label class='eidtorlock edit'></label></view>
-      </view>  -->
-    </view>
+
+        <!-- <view class='li'>
+          <view class='li-left'><label class='play-status'></label></view>
+          <view class='li-center'>
+            <view class='li-title'>导学+理论精讲—结构化+试讲...</view>
+            <view class='li-time'>
+              <text class='times'>11分20秒</text>
+            </view>
+          </view>
+          <view class='li-right'><label class='eidtorlock edit'></label></view>
+        </view>  -->
+      </view>
+    </Scroll>
   </view>
   <!-- 底部弹框 -->
   <view class='work-way {{footerStatus==true?"work-way-up":"work-way-down"}}'>

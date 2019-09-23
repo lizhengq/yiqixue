@@ -8,11 +8,10 @@ Component({
     alert:{
       type:Object,
       value:{
-        display:false,
         title:'提示',
         con:'内容',
-        btnVal:'确定',
-        target:null
+        cancalText: '',
+        confirmText: '确定',
       }
     }
   },
@@ -21,22 +20,38 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    flag:false
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-    alertBtn(){
+
+    //显示弹框
+    showAlert(){
       let that=this;
-      let _alert=that.data.alert;
-      _alert.display=false;
-      that.setData({ alert: _alert })
-      
-      let myEventDetail = {username:'李少',target:that.data.alert.target} // detail对象，提供给事件监听函数
-      //let myEventOption = {password:'5736869qiang'} // 触发事件的选项
-      that.triggerEvent('alertBtn', myEventDetail)
+      that.setData({
+        flag:!that.data.flag
+      })
+
+    },
+    //隐藏弹框
+    hideAlert(){
+      let that = this;
+      that.setData({flag: !that.data.flag})
+    },
+
+    //取消按钮事件
+    _cancalBtn(){
+      this.triggerEvent("cancalEvent");
+      this.hideAlert();
+    },
+    //确认按钮事件
+    _confirmBtn(){
+      var myEventDetail = {type:this.data.alert.type};
+      this.triggerEvent("confrimEvent", myEventDetail);
+      this.hideAlert();
     }
   }
 })

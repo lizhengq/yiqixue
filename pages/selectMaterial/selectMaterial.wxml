@@ -5,7 +5,8 @@
   </view>
 
   <view class='list-wrap'>
-    <scroll-view scroll-y="true" bindscroll="myScroll">
+    <!-- <scroll-view upper-threshold="40" lower-threshold="40" bindscrolltoupper="scrollToUpper" bindscrolltolower="scrollToLower" scroll-y="true" bindscroll="myScroll"> -->
+    <Scroll>
       <view class='list-con'>
         <view class='list-box' wx:for="{{grades}}" wx:key="index" wx:for-item="row">
           <view class='h2' id="title{{index}}">{{row.title}}</view>
@@ -70,6 +71,10 @@
           </view>
         </view>
       </view>
-    </scroll-view>
+      </Scroll>
+    <!-- </scroll-view> -->
+
   </view>
 </view>
+
+<Alert bind:confrimEvent="confrim" alert="{{alerts}}" id="lishao"></Alert>

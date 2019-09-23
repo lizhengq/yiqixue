@@ -1,4 +1,5 @@
-// components/scroll/scroll.js
+const tool=require('../../utils/tool.js')
+
 Component({
   behaviors: [],
   /**
@@ -33,7 +34,16 @@ Component({
       let scrollTopVal=e.detail.scrollTop;
       let myEventDetail = { scrollTop: scrollTopVal }
       that.triggerEvent('scrollEvent', myEventDetail)
-      console.log('look',scrollTopVal)
+      //console.log('look',scrollTopVal)
+    },
+
+    scrolltoupper(){
+      console.log('下拉刷新')
+      this.triggerEvent('scrollTopEevent')
+    },
+    scrolltolower(){
+      console.log('上拉加载')
+      this.triggerEvent('scrollBottomEevent')
     }
   }
 })

@@ -1,4 +1,5 @@
-// pages/selectMaterial/selectMaterial.js
+const tool=require('../../utils/tool.js')
+
 Page({
 
   /**
@@ -9,6 +10,9 @@ Page({
     grades:[
       { title: '小学', list: [{ title: '小学版', grade: '三年级', senc: '41词' }, { title: '小学版', grade: '三年级', senc: '41词' }, { title: '小学版', grade: '三年级', senc: '41词' }, { title: '小学版', grade: '三年级', senc: '41词' }, { title: '小学版', grade: '三年级', senc: '41词' }, { title: '小学版', grade: '三年级', senc: '41词' }]},
       { title: '初中', list: [{ title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }] },
+      { title: '初中', list: [{ title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }] },
+      { title: '初中', list: [{ title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }, { title: '初中版', grade: '七年级', senc: '100词' }] },
+      
     ]
   },
 
@@ -23,7 +27,24 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+    let that=this;
+    that.lishao = that.selectComponent('#lishao')
+    let alerts={
+      type:'loadings',
+      title:'温馨提示',
+      con: '验证码短信可能略有延迟，确定返回并重新开始？',
+      cancalText:'等待',
+      confirmText:'返回'
+    }
+    that.setData({
+      alerts:alerts
+    })
 
+    that.lishao.showAlert();
+  },
+
+  confirm(e){
+    console.log(e)
   },
 
   //自定义事件
@@ -39,12 +60,10 @@ Page({
   myScroll(e){
     let that=this;
     let scrollTop=e.detail.scrollTop;
-    console.log(scrollTop)
+    //console.log(scrollTop)
     
   },
-
   
-
   /**
    * 生命周期函数--监听页面显示
    */
@@ -61,7 +80,7 @@ Page({
       })
     }
 
-    console.log(that.querySelect)
+    // console.log(that.querySelect)
     
   },
 

@@ -1,4 +1,8 @@
-<Banner banner="{{banner}}"></Banner>
-<Alert bind:alertBtn="myEvent" alert="{{alert}}"></Alert>
+<view class='body'>
+  <view class='title'>测试demo</view>
 
-<view bindtap='liqiang'>我是按钮</view>
+  <button bindtap='reg'>我是注册按钮</button>
+  <button bindtap='login'>我是登录按钮</button>
+</view>
+
+<Alert id="lishao" bind:confrimEvent="qiangge" alert="{{alerts}}"></Alert>

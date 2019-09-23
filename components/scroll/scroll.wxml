@@ -2,6 +2,10 @@
   bindscroll="myScroll"
   scroll-x="{{scroll.scrollX}}" 
   scroll-y="{{scroll.scrollY}}" 
+  upper-threshold="40" 
+  lower-threshold="40" 
+  bindscrolltoupper="scrolltoupper" 
+  bindscrolltolower="scrolltolower" 
   style="width:{{scroll.width}};height:{{scroll.height}};">
   <slot></slot>
 </scroll-view>
